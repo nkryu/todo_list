@@ -51,7 +51,7 @@ btn1.addEventListener("click", (e) => {
 //all remove
 btn2.addEventListener("click", (e) => {
   e.preventDefault();
-  if (ol.textContent === input.value) {
+  if (ol.textContent === "") {
     alert("何も追加されていません。")
   }else if(prompt("本当に全て削除しますか?? ''yes or no'' ") === "yes"){
     ol.textContent = "";
